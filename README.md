@@ -1,4 +1,4 @@
-# meowcolor README
+# MeowColor README
 
 ## Working with Markdown
 
