@@ -1,0 +1,21 @@
+{
+  "name": "meowcolor",
+  "displayName": "MeowColor",
+  "description": "Meow's Style",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MeowColor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MeowColor-color-theme.json"
+      }
+    ]
+  }
+}
