@@ -4,19 +4,29 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": {
-			"foreground": "#ffff7e"
+			"foreground": "#AFEEEE"
 		},
 		"variable.constant": {
-			"foreground": "#c95d5d"
+			"foreground": "#AFEEEE"
 		},
 		"variable.defaultLibrary": {
-			"foreground": "#cbcb77"
+			"foreground": "#AFEEEE"
 		}
 	},
 	"tokenColors": [
 		{
 			"name": "unison punctuation",
-			"scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
+			"scope": [
+				"punctuation.definition.delayed.unison",
+				"punctuation.definition.list.begin.unison",
+				"punctuation.definition.list.end.unison",
+				"punctuation.definition.ability.begin.unison",
+				"punctuation.definition.ability.end.unison",
+				"punctuation.operator.assignment.as.unison",
+				"punctuation.separator.pipe.unison",
+				"punctuation.separator.delimiter.unison",
+				"punctuation.definition.hash.unison"
+			],
 			"settings": {
 				"foreground": "#6695b8"
 			}
@@ -33,48 +43,6 @@
 			"scope": "storage.type.haskell",
 			"settings": {
 				"foreground": "#c95d5d"
-			}
-		},
-		{
-			"name": "support.variable.magic.python",
-			"scope": "support.variable.magic.python",
-			"settings": {
-				"foreground": "#cf2a2a"
-			}
-		},
-		{
-			"name": "punctuation.separator.parameters.python",
-			"scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python",
-			"settings": {
-				"foreground": "#6c83c9"
-			}
-		},
-		{
-			"name": "variable.parameter.function.language.special.self.python",
-			"scope": "variable.parameter.function.language.special.self.python",
-			"settings": {
-				"foreground": "#df2727"
-			}
-		},
-		{
-			"name": "storage.type.function.python",
-			"scope": "storage.type.function.python",
-			"settings": {
-				"foreground": "#df2727"
-			}
-		},
-		{
-			"name": "storage.type.class.python",
-			"scope": "storage.type.class.python",
-			"settings": {
-				"foreground": "#df2727"
-			}
-		},
-		{
-			"name": "storage.type.function.lambda.python",
-			"scope": "storage.type.function.lambda.python",
-			"settings": {
-				"foreground": "#df2727"
 			}
 		},
 		{
@@ -130,7 +98,7 @@
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#ffd699"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -479,55 +447,6 @@
 			}
 		},
 		{
-			"name": "python parameter",
-			"scope": "variable.parameter.function.language.python",
-			"settings": {
-				"foreground": "#c95d5d"
-			}
-		},
-		{
-			"name": "python type",
-			"scope": "support.type.python",
-			"settings": {
-				"foreground": "#ffff7e"
-			}
-		},
-		{
-			"name": "python logical",
-			"scope": "keyword.operator.logical.python",
-			"settings": {
-				"foreground": "#ff2727"
-			}
-		},
-		{
-			"name": "pyCs",
-			"scope": "variable.parameter.function.python",
-			"settings": {
-				"foreground": "#c95d5d"
-			}
-		},
-		{
-			"name": "python block",
-			"scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python",
-			"settings": {
-				"foreground": "#6c83c9"
-			}
-		},
-		{
-			"name": "python function-call.generic",
-			"scope": "meta.function-call.generic.python",
-			"settings": {
-				"foreground": "#91e685"
-			}
-		},
-		{
-			"name": "python placeholder reset to normal string",
-			"scope": "constant.character.format.placeholder.other.python",
-			"settings": {
-				"foreground": "#c95d5d"
-			}
-		},
-		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
@@ -757,7 +676,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ffd699"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -793,13 +712,6 @@
 			"scope": "punctuation.definition.constant",
 			"settings": {
 				"foreground": "#e00000"
-			}
-		},
-		{
-			"name": "constant.language.python",
-			"scope": "constant.language.python",
-			"settings": {
-				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -1066,7 +978,7 @@
 			"name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
 			"scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
 			"settings": {
-				"foreground": "#ffd699"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -1214,20 +1126,6 @@
 			"scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
 			"settings": {
 				"foreground": "#865da7"
-			}
-		},
-		{
-			"name": "python function decorator @",
-			"scope": "meta.function.decorator.python",
-			"settings": {
-				"foreground": "#91e685"
-			}
-		},
-		{
-			"name": "python function support",
-			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
-			"settings": {
-				"foreground": "#ffff7e"
 			}
 		},
 		{
@@ -1725,7 +1623,7 @@
 				"beginning.punctuation.definition.quote.markdown.xi"
 			],
 			"settings": {
-				"foreground": "#ffd699"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -1858,18 +1756,92 @@
 			}
 		},
 		{
+			"name": "markup.italic.markdown",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "python function decorator @",
+			"scope": "meta.function.decorator.python",
+			"settings": {
+				"foreground": "#91e685"
+			}
+		},
+		{
+			"name": "python function support",
+			"scope": [
+				"support.token.decorator.python",
+				"meta.function.decorator.identifier.python"
+			],
+			"settings": {
+				"foreground": "#ffff7e"
+			}
+		},
+		{
+			"name": "constant.language.python",
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
 			"name": "Python Keyword Control",
-			"scope": "keyword.control.import.python,keyword.control.flow.python",
+			"scope": [
+				"keyword.control.import.python",
+				"keyword.control.flow.python"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#df2727"
 			}
 		},
 		{
-			"name": "markup.italic.markdown",
-			"scope": "markup.italic.markdown",
+			"name": "support.variable.magic.python",
+			"scope": "support.variable.magic.python",
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#cf2a2a"
+			}
+		},
+		{
+			"name": "punctuation.separator.parameters.python",
+			"scope": [ 
+				"punctuation.separator.period.python",
+				"punctuation.separator.element.python",
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python"
+			],
+			"settings": {
+				"foreground": "#6c83c9"
+			}
+		},
+		{
+			"name": "variable.parameter.function.language.special.self.python",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#df2727"
+			}
+		},
+		{
+			"name": "storage.type.function.python",
+			"scope": "storage.type.function.python",
+			"settings": {
+				"foreground": "#df2727"
+			}
+		},
+		{
+			"name": "storage.type.class.python",
+			"scope": "storage.type.class.python",
+			"settings": {
+				"foreground": "#df2727"
+			}
+		},
+		{
+			"name": "storage.type.function.lambda.python",
+			"scope": "storage.type.function.lambda.python",
+			"settings": {
+				"foreground": "#df2727"
 			}
 		}
 	],
