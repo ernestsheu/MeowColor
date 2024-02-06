@@ -1783,7 +1783,7 @@
 			"name": "constant.language.python",
 			"scope": "constant.language.python",
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#e00000"
 			}
 		},
 		{
@@ -1794,14 +1794,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#df2727"
+				"foreground": "#e00000"
 			}
 		},
 		{
 			"name": "support.variable.magic.python",
 			"scope": "support.variable.magic.python",
 			"settings": {
-				"foreground": "#cf2a2a"
+				"foreground": "#e00000"
 			}
 		},
 		{
@@ -1820,28 +1820,28 @@
 			"name": "variable.parameter.function.language.special.self.python",
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#df2727"
+				"foreground": "#e00000"
 			}
 		},
 		{
 			"name": "storage.type.function.python",
 			"scope": "storage.type.function.python",
 			"settings": {
-				"foreground": "#df2727"
+				"foreground": "#e00000"
 			}
 		},
 		{
 			"name": "storage.type.class.python",
 			"scope": "storage.type.class.python",
 			"settings": {
-				"foreground": "#df2727"
+				"foreground": "#e00000"
 			}
 		},
 		{
 			"name": "storage.type.function.lambda.python",
 			"scope": "storage.type.function.lambda.python",
 			"settings": {
-				"foreground": "#df2727"
+				"foreground": "#e00000"
 			}
 		}
 	],
