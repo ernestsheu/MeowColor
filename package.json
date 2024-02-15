@@ -2,9 +2,15 @@
   "name": "MeowColor",
   "displayName": "MeowColor",
   "description": "Meow's Style",
-  "version": "0.0.2",
+  "version": "2024.7.1",
+  "publisher": "066f1f66-719e-67c6-918a-c531a9b9d6c8",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.86.0"
+    "vscode": "^1.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ernestsheu/MeowColor.git"
   },
   "categories": [
     "Themes"
