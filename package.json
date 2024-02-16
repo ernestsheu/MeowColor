@@ -2,8 +2,8 @@
   "name": "MeowColor",
   "displayName": "MeowColor",
   "description": "Meow's Style",
-  "version": "2024.7.1",
-  "publisher": "066f1f66-719e-67c6-918a-c531a9b9d6c8",
+  "version": "2024.7.2",
+  "publisher": "Meowkaer",
   "license": "MIT",
   "engines": {
     "vscode": "^1.78.0"
