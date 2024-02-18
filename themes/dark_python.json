@@ -1,0 +1,154 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "MeowColorPython",
+    "include": "./dark_plus.json",
+    "tokenColors": [
+        {
+            "name": "python function decorator @",
+            "scope": "meta.function.decorator.python",
+            "settings": {
+                "foreground": "#b8e9b1"
+            }
+        },
+        {
+            "name": "python function support",
+            "scope": [
+                "support.token.decorator.python",
+                "meta.function.decorator.identifier.python"
+            ],
+            "settings": {
+                "foreground": "#e0e0b0"
+            }
+        },
+        {
+            "name": "constant.language.python",
+            "scope": "constant.language.python",
+            "settings": {
+                "foreground": "#B22222"
+            }
+        },
+        {
+            "name": "Python Keyword Control",
+            "scope": ["keyword.control.import.python"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#B22222"
+            }
+        },
+        {
+            "name": "Python Keyword Control: try-except, if-else",
+            "scope": ["support.type.python", "keyword.control.flow.python"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "name": "Python Keyword Control: and, or, if, not, in",
+            "scope": ["keyword.operator.logical.python"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#eebcdb"
+            }
+        },
+        {
+            "name": "support.variable.magic.python",
+            "scope": "support.variable.magic.python",
+            "settings": {
+                "foreground": "#B22222"
+            }
+        },
+        {
+            "name": "punctuation.separator.parameters.python",
+            "scope": [
+                "punctuation.separator.period.python",
+                "punctuation.separator.element.python",
+                "punctuation.parenthesis.begin.python",
+                "punctuation.parenthesis.end.python"
+            ],
+            "settings": {
+                "foreground": "#e0e0b0"
+            }
+        },
+        {
+            "name": "variable.parameter.function.language.special.self.python",
+            "scope": "variable.parameter.function.language.special.self.python",
+            "settings": {
+                "foreground": "#B22222"
+            }
+        },
+        {
+            "name": "storage.type.function.python",
+            "scope": "storage.type.function.python",
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "storage.type.class.python",
+            "scope": "storage.type.class.python",
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "storage.type.function.lambda.python",
+            "scope": "storage.type.function.lambda.python",
+            "settings": {
+                "foreground": "#AFEEEE"
+            }
+        },
+        {
+            "name": "[Python] Imported module name",
+            "scope": ["entity.name.namespace"],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "[Python] Class name",
+            "scope": ["entity.name.type"],
+            "settings": {
+                "foreground": "#e0e0b0"
+            }
+        },
+        {
+            "name": "Function declarations",
+            "scope": [
+                "entity.name.function",
+                "support.function",
+                "support.constant.handlebars",
+                "source.powershell variable.other.member",
+                "entity.name.operator.custom-literal"
+            ],
+            "settings": {
+                "foreground": "#81be5f"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#646464"
+            }
+        },
+        {
+            "scope": "punctuation.definition.string, double quotes, single quote",
+            "settings": {
+                "foreground": "#E8C9BB"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#c48a72"
+            }
+        }
+    ],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "newOperator": "#C586C0",
+        "stringLiteral": "#D69D85",
+        "customLiteral": "#DCDCAA",
+        "numberLiteral": "#b5cea8"
+    }
+}

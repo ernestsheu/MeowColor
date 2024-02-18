@@ -1,27 +1,27 @@
 {
-  "name": "MeowColor",
-  "displayName": "MeowColor",
-  "description": "Meow's Style",
-  "version": "2024.7.2",
-  "publisher": "Meowkaer",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.78.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ernestsheu/MeowColor.git"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "MeowColor",
-        "uiTheme": "vs-dark",
-        "path": "./themes/MeowColor-color-theme.json"
-      }
-    ]
-  }
+    "name": "MeowColor",
+    "displayName": "MeowColor",
+    "description": "Meow's Style",
+    "version": "2024.7.3",
+    "publisher": "Meowkaer",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.78.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ernestsheu/MeowColor.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MeowColor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_main.json"
+            }
+        ]
+    }
 }
